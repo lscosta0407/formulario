@@ -1,0 +1,79 @@
+body {
+  background-color: #1d1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: white;
+  
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #1d1b1b;
+  border: 1px solid white;
+  background-color: #1d1b1b;
+
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(233, 2, 2);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8a0500;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contato {
+  color: white;
+}
+
+
+
+p {
+  border-bottom: 2px solid white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}
+
+#botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: none;
+}
+
+#campos ::placeholder{
+  color: red;
+}
